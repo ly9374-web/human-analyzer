@@ -1,0 +1,4 @@
+interface:
+  display_name: "lyskill"
+  short_description: "把聊天记录、笔记和截图文本整理成可调用的人物侧写技能"
+  default_prompt: "Use $lyskill to turn chat records or notes about a person into persona, relationship, memory, and a callable Codex skill."
