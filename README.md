@@ -1,4 +1,5 @@
 # lyskill
+调用skill后上传聊天记录即可分析。（可以在微信中选中聊天记录，点击多选，复制粘贴记录）
 
 `lyskill` is a lightweight workflow for turning source material about a specific person into a reusable Codex skill.
 
@@ -102,12 +103,4 @@ The generation prompts live in `prompts/`:
 - If material is thin or conflicting, mark uncertainty clearly.
 - When local profile files contain concrete material, use them instead of generic psychology.
 
-## Existing Partner Skills
 
-Current partner folders include:
-
-- `partners/ly/`
-- `partners/yuanyuan/`
-- `partners/yuanyun/`
-
-Each folder with a valid `SKILL.md` can be used as a Codex skill when installed under the Codex skills directory.
